@@ -6,9 +6,10 @@ Return the variable.
 */
 
 Map func(Map data) {
+  data[2]='two';
   return data;
 }
 
 void main() {
-  print(func({1:'one',3:'there'}));
+  print(func({1:'one'}));
 }

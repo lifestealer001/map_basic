@@ -7,9 +7,10 @@ Then return the map.
 */
 
 Map func(Map dct) {
-  return dct;
+  dct['abror']='murtazaqulov';
+  return  dct ;
 }
 
 void main() {
-  print(func({'abror':'murtazaqulov'}));
+  print(func({}));
 }

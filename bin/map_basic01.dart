@@ -5,6 +5,7 @@
 */
 
 Map func(Map data) {
+  data = {};
   return data;
 }
 

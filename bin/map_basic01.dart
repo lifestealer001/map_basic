@@ -4,11 +4,11 @@
 
 */
 
-Map func(Map data) {
-  data = {};
+Map func() {
+  Map data = {};
   return data;
 }
 
 void main() {
-  print(func({}));
+  print(func());
 }

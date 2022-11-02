@@ -8,9 +8,11 @@ Return list_to_map variable
 */
 
 Map func(List lst1, List lst2) {
-  return;
+  lst1.toMap();
+  lst2.tomap();
+  return lst2;
 }
 
 void main() {
-  print(func());
+  print(func([1,2],['one','two']));
 }

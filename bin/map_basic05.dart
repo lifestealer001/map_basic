@@ -6,10 +6,10 @@ Then return the map.
 
 */
 
-Map func() {
-  return;
+Map func(Map dct) {
+  return dct;
 }
 
 void main() {
-  print(func());
+  print(func({'abror':'murtazaqulov'}));
 }
